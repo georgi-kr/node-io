@@ -3,7 +3,22 @@
   "version": "1.0.0",
   "description": "Simple node js file IO app",
   "main": "index.js",
-  "repository": "https://github.com/georgi-krastev9715/node-io.git",
-  "author": "georgiKrastev97 <georgi.krastev@ovo.com>",
-  "license": "MIT"
+  "repository": "https://github.com/georgi-kr/node-io.git",
+  "author": "georgi-kr",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "start": " tsc-watch --onSuccess 'node dist/index.js'"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "tsc-watch": "^5.0.3"
+  }
 }
