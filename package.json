@@ -1,0 +1,9 @@
+{
+  "name": "nodeio",
+  "version": "1.0.0",
+  "description": "Simple node js file IO app",
+  "main": "index.js",
+  "repository": "https://github.com/georgi-krastev9715/node-io.git",
+  "author": "georgiKrastev97 <georgi.krastev@ovo.com>",
+  "license": "MIT"
+}
