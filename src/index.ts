@@ -1,4 +1,8 @@
-console.log('app');
-console.log('small cahnge');
-console.log('simple test');
-console.log('test221');
+import fs from 'fs';
+import csv from 'csv-parse';
+
+// main fn
+(() => {
+  // execute main fn body
+  console.log('Main fn');
+})();
